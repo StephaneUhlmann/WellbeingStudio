@@ -1,0 +1,137 @@
+body{
+  font-family: FilsonProLight,sans-serif;
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+section{
+  padding: 50px 100px 50px 250px;
+  grid-template-rows: auto 1fr auto;
+}
+
+.nav-item{
+  padding: 10px 5px 10px 5px;
+  margin-left: 10px;
+}
+
+.nav {
+  background-color: #381c52;
+  width: fit-content;
+  height: 100%;
+  position: fixed;
+}
+
+.navbar{
+  background-color: #381c52;
+
+}
+
+.transition-nav{
+  background-color: #013A6B;
+  background-image: -webkit-linear-gradient(135deg, #381c52 50%, white 50%);
+}
+
+
+.page-title, .elearning{
+  background-color: #f7f7f7;
+}
+
+h1 {
+  display: inline-block;
+  text-align: right;
+  font-size: 3em;
+  padding: 5px 20px;
+  background-size:100% 2px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: deeppink;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.light{
+  font-weight: lighter;
+}
+
+.wellbeing-studio-title {
+  position: relative;
+  display: table;
+  width: 100px;
+  height: 100px;
+  background: no-repeat center;
+
+}
+
+.wellbeing-studio-title:before,
+.wellbeing-studio-title:after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: solid black;
+  border-width:   3px 0 0 3px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+.wellbeing-studio-title:before {
+  left: 5px;
+  botton: 5px;
+}
+
+.wellbeing-studio-title:after {
+  border-width: 0 3px 3px 0;
+  bottom: 5px;
+  right: 5px;
+}
+
+.wellbeing-studio-title:after,
+.wellbeing-studio-title:before {
+  display: block;
+}
+
+.series{
+  margin-top: 50px;
+}
+
+.link-div{
+  text-align: right;
+
+}
+
+.see-all-links{
+  text-decoration: underline;
+  color: deeppink;
+  font-weight: bold;
+}
+
+.see-all-links:hover{
+  text-decoration: underline;
+  color: #cd0571;
+  font-weight: bold;
+}
+
+.btn{
+  background-color: deeppink;
+  color: white;
+}
+
+.event{
+  margin: 25px 50px 25px 0px;
+  background-color: #543d6b;
+  color: white;
+
+}
+.event-title, .event-date{
+  height: 60px;
+  text-align: center;
+}
+
+.btn-wrap{
+  width: 100%;
+  text-align: right;
+}
